@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38124EC02516596E00385893 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124EBF2516596E00385893 /* AppDelegate.swift */; };
+		38124EC22516596E00385893 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124EC12516596E00385893 /* SceneDelegate.swift */; };
+		38124EC42516596E00385893 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124EC32516596E00385893 /* ViewController.swift */; };
+		38124EC72516596E00385893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38124EC52516596E00385893 /* Main.storyboard */; };
+		38124EC92516596F00385893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38124EC82516596F00385893 /* Assets.xcassets */; };
+		38124ECC2516596F00385893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38124ECA2516596F00385893 /* LaunchScreen.storyboard */; };
+		38124ED72516597000385893 /* disneyplusmockupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124ED62516597000385893 /* disneyplusmockupTests.swift */; };
+		38124EE22516597000385893 /* disneyplusmockupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124EE12516597000385893 /* disneyplusmockupUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38124ED32516597000385893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38124EB42516596E00385893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38124EBB2516596E00385893;
+			remoteInfo = disneyplusmockup;
+		};
+		38124EDE2516597000385893 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38124EB42516596E00385893 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38124EBB2516596E00385893;
+			remoteInfo = disneyplusmockup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38124EBC2516596E00385893 /* disneyplusmockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = disneyplusmockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38124EBF2516596E00385893 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38124EC12516596E00385893 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		38124EC32516596E00385893 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38124EC62516596E00385893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38124EC82516596F00385893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38124ECB2516596F00385893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38124ECD2516596F00385893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38124ED22516597000385893 /* disneyplusmockupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = disneyplusmockupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38124ED62516597000385893 /* disneyplusmockupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disneyplusmockupTests.swift; sourceTree = "<group>"; };
+		38124ED82516597000385893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38124EDD2516597000385893 /* disneyplusmockupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = disneyplusmockupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38124EE12516597000385893 /* disneyplusmockupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = disneyplusmockupUITests.swift; sourceTree = "<group>"; };
+		38124EE32516597000385893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38124EB92516596E00385893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38124ECF2516597000385893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38124EDA2516597000385893 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38124EB32516596E00385893 = {
+			isa = PBXGroup;
+			children = (
+				38124EBE2516596E00385893 /* disneyplusmockup */,
+				38124ED52516597000385893 /* disneyplusmockupTests */,
+				38124EE02516597000385893 /* disneyplusmockupUITests */,
+				38124EBD2516596E00385893 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38124EBD2516596E00385893 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38124EBC2516596E00385893 /* disneyplusmockup.app */,
+				38124ED22516597000385893 /* disneyplusmockupTests.xctest */,
+				38124EDD2516597000385893 /* disneyplusmockupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38124EBE2516596E00385893 /* disneyplusmockup */ = {
+			isa = PBXGroup;
+			children = (
+				38124EBF2516596E00385893 /* AppDelegate.swift */,
+				38124EC12516596E00385893 /* SceneDelegate.swift */,
+				38124EC32516596E00385893 /* ViewController.swift */,
+				38124EC52516596E00385893 /* Main.storyboard */,
+				38124EC82516596F00385893 /* Assets.xcassets */,
+				38124ECA2516596F00385893 /* LaunchScreen.storyboard */,
+				38124ECD2516596F00385893 /* Info.plist */,
+			);
+			path = disneyplusmockup;
+			sourceTree = "<group>";
+		};
+		38124ED52516597000385893 /* disneyplusmockupTests */ = {
+			isa = PBXGroup;
+			children = (
+				38124ED62516597000385893 /* disneyplusmockupTests.swift */,
+				38124ED82516597000385893 /* Info.plist */,
+			);
+			path = disneyplusmockupTests;
+			sourceTree = "<group>";
+		};
+		38124EE02516597000385893 /* disneyplusmockupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38124EE12516597000385893 /* disneyplusmockupUITests.swift */,
+				38124EE32516597000385893 /* Info.plist */,
+			);
+			path = disneyplusmockupUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38124EBB2516596E00385893 /* disneyplusmockup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38124EE62516597000385893 /* Build configuration list for PBXNativeTarget "disneyplusmockup" */;
+			buildPhases = (
+				38124EB82516596E00385893 /* Sources */,
+				38124EB92516596E00385893 /* Frameworks */,
+				38124EBA2516596E00385893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = disneyplusmockup;
+			productName = disneyplusmockup;
+			productReference = 38124EBC2516596E00385893 /* disneyplusmockup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38124ED12516597000385893 /* disneyplusmockupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38124EE92516597000385893 /* Build configuration list for PBXNativeTarget "disneyplusmockupTests" */;
+			buildPhases = (
+				38124ECE2516597000385893 /* Sources */,
+				38124ECF2516597000385893 /* Frameworks */,
+				38124ED02516597000385893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38124ED42516597000385893 /* PBXTargetDependency */,
+			);
+			name = disneyplusmockupTests;
+			productName = disneyplusmockupTests;
+			productReference = 38124ED22516597000385893 /* disneyplusmockupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38124EDC2516597000385893 /* disneyplusmockupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38124EEC2516597000385893 /* Build configuration list for PBXNativeTarget "disneyplusmockupUITests" */;
+			buildPhases = (
+				38124ED92516597000385893 /* Sources */,
+				38124EDA2516597000385893 /* Frameworks */,
+				38124EDB2516597000385893 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38124EDF2516597000385893 /* PBXTargetDependency */,
+			);
+			name = disneyplusmockupUITests;
+			productName = disneyplusmockupUITests;
+			productReference = 38124EDD2516597000385893 /* disneyplusmockupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38124EB42516596E00385893 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					38124EBB2516596E00385893 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					38124ED12516597000385893 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 38124EBB2516596E00385893;
+					};
+					38124EDC2516597000385893 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 38124EBB2516596E00385893;
+					};
+				};
+			};
+			buildConfigurationList = 38124EB72516596E00385893 /* Build configuration list for PBXProject "disneyplusmockup" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38124EB32516596E00385893;
+			productRefGroup = 38124EBD2516596E00385893 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38124EBB2516596E00385893 /* disneyplusmockup */,
+				38124ED12516597000385893 /* disneyplusmockupTests */,
+				38124EDC2516597000385893 /* disneyplusmockupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38124EBA2516596E00385893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38124ECC2516596F00385893 /* LaunchScreen.storyboard in Resources */,
+				38124EC92516596F00385893 /* Assets.xcassets in Resources */,
+				38124EC72516596E00385893 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38124ED02516597000385893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38124EDB2516597000385893 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38124EB82516596E00385893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38124EC42516596E00385893 /* ViewController.swift in Sources */,
+				38124EC02516596E00385893 /* AppDelegate.swift in Sources */,
+				38124EC22516596E00385893 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38124ECE2516597000385893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38124ED72516597000385893 /* disneyplusmockupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38124ED92516597000385893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38124EE22516597000385893 /* disneyplusmockupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38124ED42516597000385893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38124EBB2516596E00385893 /* disneyplusmockup */;
+			targetProxy = 38124ED32516597000385893 /* PBXContainerItemProxy */;
+		};
+		38124EDF2516597000385893 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38124EBB2516596E00385893 /* disneyplusmockup */;
+			targetProxy = 38124EDE2516597000385893 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38124EC52516596E00385893 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38124EC62516596E00385893 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38124ECA2516596F00385893 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38124ECB2516596F00385893 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38124EE42516597000385893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38124EE52516597000385893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38124EE72516597000385893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = disneyplusmockup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jlu.disneyplusmockup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38124EE82516597000385893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = disneyplusmockup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jlu.disneyplusmockup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38124EEA2516597000385893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = disneyplusmockupTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jlu.disneyplusmockupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/disneyplusmockup.app/disneyplusmockup";
+			};
+			name = Debug;
+		};
+		38124EEB2516597000385893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = disneyplusmockupTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jlu.disneyplusmockupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/disneyplusmockup.app/disneyplusmockup";
+			};
+			name = Release;
+		};
+		38124EED2516597000385893 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = disneyplusmockupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jlu.disneyplusmockupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = disneyplusmockup;
+			};
+			name = Debug;
+		};
+		38124EEE2516597000385893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = disneyplusmockupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jlu.disneyplusmockupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = disneyplusmockup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38124EB72516596E00385893 /* Build configuration list for PBXProject "disneyplusmockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38124EE42516597000385893 /* Debug */,
+				38124EE52516597000385893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38124EE62516597000385893 /* Build configuration list for PBXNativeTarget "disneyplusmockup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38124EE72516597000385893 /* Debug */,
+				38124EE82516597000385893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38124EE92516597000385893 /* Build configuration list for PBXNativeTarget "disneyplusmockupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38124EEA2516597000385893 /* Debug */,
+				38124EEB2516597000385893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38124EEC2516597000385893 /* Build configuration list for PBXNativeTarget "disneyplusmockupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38124EED2516597000385893 /* Debug */,
+				38124EEE2516597000385893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38124EB42516596E00385893 /* Project object */;
+}
