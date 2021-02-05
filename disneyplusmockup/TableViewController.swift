@@ -29,8 +29,8 @@ class CarouselTableView: UIViewController {
         
         self.addLogoToNavigationBarItem()
 
-        let addButton = UIBarButtonItem(title: "Remote", style: UIBarButtonItem.Style.done, target: self, action: #selector(tapButton))
-        self.navigationItem.rightBarButtonItem = addButton
+//        let addButton = UIBarButtonItem(title: "Remote", style: UIBarButtonItem.Style.done, target: self, action: #selector(tapButton))
+//        self.navigationItem.rightBarButtonItem = addButton
         view.backgroundColor = .black
         view.addSubview(tableView)
         
@@ -41,10 +41,10 @@ class CarouselTableView: UIViewController {
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
      }
     
-    @objc func tapButton() {
-        let desVC = RemoteViewController()
-        self.navigationController?.pushViewController(desVC, animated: true)
-    }
+//    @objc func tapButton() {
+//        let desVC = RemoteViewController()
+//        self.navigationController?.pushViewController(desVC, animated: true)
+//    }
 }
 
 extension CarouselTableView: UITableViewDelegate, UITableViewDataSource {

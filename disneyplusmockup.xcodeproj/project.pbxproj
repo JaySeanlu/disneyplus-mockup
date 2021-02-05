@@ -19,7 +19,6 @@
 		38124F4D2519259B00385893 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38124F4B2519259B00385893 /* AVKit.framework */; };
 		38124F6F251951F200385893 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 38124F6E251951F200385893 /* video.mp4 */; };
 		38124F7A251987AD00385893 /* RemoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124F79251987AD00385893 /* RemoteViewController.swift */; };
-		38124F94251A65D300385893 /* RemoteSignalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38124F93251A65D300385893 /* RemoteSignalModel.swift */; };
 		38F0624225290EBE00C5B575 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F0624125290EBE00C5B575 /* MainMenuViewController.swift */; };
 		38F0624A2529781800C5B575 /* UIImageView+load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F062492529781800C5B575 /* UIImageView+load.swift */; };
 		38F06252252978AA00C5B575 /* UIViewController+addLogoToNavigationBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F06251252978AA00C5B575 /* UIViewController+addLogoToNavigationBarItem.swift */; };
@@ -59,7 +58,6 @@
 		38124F4B2519259B00385893 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		38124F6E251951F200385893 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video.mp4; path = ../../../../Downloads/video.mp4; sourceTree = "<group>"; };
 		38124F79251987AD00385893 /* RemoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteViewController.swift; sourceTree = "<group>"; };
-		38124F93251A65D300385893 /* RemoteSignalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteSignalModel.swift; path = ../../../../.Trash/RemoteSignalModel.swift; sourceTree = "<group>"; };
 		38F0624125290EBE00C5B575 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		38F062492529781800C5B575 /* UIImageView+load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+load.swift"; sourceTree = "<group>"; };
 		38F06251252978AA00C5B575 /* UIViewController+addLogoToNavigationBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+addLogoToNavigationBarItem.swift"; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				38124F6E251951F200385893 /* video.mp4 */,
-				38124F93251A65D300385893 /* RemoteSignalModel.swift */,
 				38F06251252978AA00C5B575 /* UIViewController+addLogoToNavigationBarItem.swift */,
 				38F062492529781800C5B575 /* UIImageView+load.swift */,
 				38124F412518EB5C00385893 /* Storyboard.storyboard */,
@@ -278,7 +275,6 @@
 				38124EC42516596E00385893 /* TableViewCell.swift in Sources */,
 				38124EC02516596E00385893 /* AppDelegate.swift in Sources */,
 				38124EC22516596E00385893 /* SceneDelegate.swift in Sources */,
-				38124F94251A65D300385893 /* RemoteSignalModel.swift in Sources */,
 				38F0624A2529781800C5B575 /* UIImageView+load.swift in Sources */,
 				38124F212516AF3B00385893 /* TableViewController.swift in Sources */,
 				38124F7A251987AD00385893 /* RemoteViewController.swift in Sources */,
